@@ -1,0 +1,28 @@
+Practice
+--------
+Java example programs
+C programs
+C interview questions / programs
+Java interview questions / programs
+Python interview questions / programs
+Aptitude interview questions
+
+Theory
+------
+Software testing & tools used
+Selenium, HP QTP
+Automation
+Program differences between C, Java, Python
+SQL basics and Queries
+Networking interview questions
+Operating systems interview questions
+Cloud computing interview questions
+
+
+Interview Preparation
+----------------------
+1. Update resume based on Job requirement
+2. Project explanation
+3. Revise Introduce yourself, talk for 5 minutes LOUDLY
+4. Revise notes
+4. See Current news in phone

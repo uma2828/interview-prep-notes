@@ -1,0 +1,34 @@
+Selenium (software)
+      Selenium is a portable software-testing framework for web applications. 
+	  Selenium provides a playback (formerly also recording) tool for authoring tests without the need to learn a test scripting language (Selenium IDE).
+	  It also provides a test including C#, Groovy, Java, Perl, PHP, Python, Ruby and Scala. The tests can then run against most modern web browsers. 
+	  Selenium deploys on Windows, Linux, and macOS platforms.
+	  It is open-source software, released under the Apache 2.0 license: web developers can download and use it without charge.
+	  
+History
+      Dev by Jason huggins in 2004 internal tool at thoughtwork.
+	  name selenium comes from joke by huggins in an email.
+	  
+Components
+     1. Selenium IDE	
+             Selenium IDE is a complete integrated development environment (IDE) for Selenium tests. 
+			 It is implemented as a Firefox Add-On and available on Chrome Store recently, and allows recording, editing, and debugging tests.
+	 2. Selenium client API	
+             As an alternative to writing tests in Selenese, tests can also be written in various programming languages. 
+			 These tests then communicate with Selenium by calling methods in the Selenium Client API. 
+			 Selenium currently provides client APIs for Java, C#, Ruby, JavaScript and Python
+	 3. Selenium WebDriver	
+             Selenium WebDriver is the successor to Selenium RC.
+             Selenium WebDriver accepts commands (sent in Selenese, or via a Client API) and sends them to a browser.
+	 4. Selenium Remote Control	
+			 Selenium Remote Control (RC) is a server, written in Java, that accepts commands for the browser via HTTP.
+			 RC makes it possible to write automated tests for a web application in any programming language.
+	 5. Selenium Grid	Edit
+			 Selenium Grid is a server that allows tests to use web browser instances running on remote machines. 
+			 With Selenium Grid, one server acts as the hub.
+			 
+			
+Software Testing - Overview
+What is Testing?
+    Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not. 
+     In simple words, testing is executing a system in order to identify any gaps, errors, or missing requirements in contrary to the actual requirements.
