@@ -1,0 +1,421 @@
+APTITUDE NOTES:
+
+1.	When a plot is sold for Rs. 18,700, the owner loses 15%. At what price must that plot be sold in order to gain 15%?
+
+	A.	Rs. 21,000
+	B.	Rs. 22,500	
+	C.	Rs. 25,300
+	D.	Rs. 25,800
+Your Answer: Option B
+
+Correct Answer: Option C
+
+Explanation:
+
+85 : 18700 = 115 : x
+
+ x =		18700 x 115		= 25300.
+85
+Hence, S.P. = Rs. 25,300.
+
+2.The least among the following is:
+
+	A.	0.2	
+	B.	1 ÷ 0.2
+	C.	0.2
+	D.	(0.2)2
+Your Answer: Option A
+
+Correct Answer: Option D
+Explanation:
+1 ÷ 0.2 =	1	=	10	= 5;
+0.2	2
+0.2 = 0.222...;
+
+(0.2)2 = 0.04.
+
+0.04 < 0.2 < 0.22....<5.
+
+Since 0.04 is the least, so (0.2)2 is the least.
+
+5.	A car owner buys petrol at Rs.7.50, Rs. 8 and Rs. 8.50 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs. 4000 each year?
+
+	A.	Rs. 7.98
+	B.	Rs. 8	
+	C.	Rs. 8.50
+	D.	Rs. 9
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+Total quantity of petrol
+consumed in 3 years	
+=		4000	+	4000	+	4000		 litres
+7.50	8	8.50
+= 4000		2	+	1	+	2		 litres
+15	8	17
+=		76700		 litres
+51
+Total amount spent = Rs. (3 x 4000) = Rs. 12000.
+
+ Average cost = Rs.		12000 x 51		= Rs.	6120	   = Rs. 7.98
+76700	767
+
+6.	The true discount on Rs. 1760 due after a certain time at 12% per annum is Rs. 160. The time after which it is due is:
+
+	A.	6 months
+	B.	8 months	
+	C.	9 months
+	D.	10 months
+Your Answer: Option B
+
+Correct Answer: Option D
+
+Explanation:
+
+P.W. = Rs. (1760 -160) = Rs. 1600.
+
+ S.I. on Rs. 1600 at 12% is Rs. 160.
+
+ Time =		100 x 160		=	5	years =		5	x 12	months = 10 months.
+1600 x 12	6	6
+
+
+8.	Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?
+	A.	210	
+	B.	1050
+	C.	25200
+	D.	21400
+	E.	None of these
+Your Answer: Option A
+Correct Answer: Option C
+Explanation:
+Number of ways of selecting (3 consonants out of 7) and (2 vowels out of 4)
+
+     	= (7C3 x 4C2)
+=		7 x 6 x 5	x	4 x 3	
+3 x 2 x 1	2 x 1
+= 210.
+Number of groups, each having 3 consonants and 2 vowels = 210.
+
+Each group contains 5 letters.
+
+Number of ways of arranging 
+5 letters among themselves	= 5!
+= 5 x 4 x 3 x 2 x 1
+= 120.
+ Required number of ways = (210 x 120) = 25200
+ 
+ 9.	A and B can together finish a work 30 days. They worked together for 20 days and then B left. After another 20 days, A finished the remaining work. In how many days A alone can finish the work?
+
+	A.	40	
+	B.	50
+	C.	54
+	D.	60
+Your Answer: Option A
+Correct Answer: Option D
+Explanation:
+(A + B)'s 20 day's work =	(	1	x 20	)	=	2	.
+30	3
+Remaining work =	(	1 -	2	)	=	1	.
+3	3
+Now,	1	work is done by A in 20 days.
+3
+Therefore, the whole work will be done by A in (20 x 3) = 60 days.
+
+11.	A father said to his son, "I was as old as you are at the present at the time of your birth". If the father's age is 38 years now, the son's age five years back was:
+	A.	14 years
+	B.	19 years
+	C.	33 years	
+	D.	38 years
+Your Answer: Option C
+Correct Answer: Option A
+Explanation:
+Let the son's present age be x years. Then, (38 - x) = x
+
+2x = 38.
+
+ x = 19.
+
+ Son's age 5 years back (19 - 5) = 14 years.
+ 
+ 	
+13.Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years, what is definitely the difference between R and Q's age?
+	A.	1 year
+	B.	2 years	
+	C.	25 years
+	D.	Data inadequate
+	E.	None of these
+Your Answer: Option B
+Correct Answer: Option D
+Explanation:
+Given that:
+1. The difference of age b/w R and Q = The difference of age b/w Q and T.
+2. Sum of age of R and T is 50 i.e. (R + T) = 50.
+Question: R - Q = ?.
+Explanation:
+R - Q = Q - T
+
+(R + T) = 2Q
+
+Now given that, (R + T) = 50
+
+So, 50 = 2Q and therefore Q = 25.
+
+Question is (R - Q) = ?
+Here we know the value(age) of Q (25), but we don't know the age of R.
+therefore, (R-Q) cannot be determined.
+
+13.	How many times in a day, the hands of a clock are straight?
+	A.	22
+	B.	24	
+	C.	44
+	D.	48
+Your Answer: Option B
+
+Correct Answer: Option C
+
+Explanation:
+In 12 hours, the hands coincide or are in opposite direction 22 times.
+In 24 hours, the hands coincide or are in opposite direction 44 times a day.
+
+14.	7, 8, 18, 57, 228, 1165, 6996
+
+	A.	8	
+	B.	18
+	C.	57
+	D.	228
+	E.	1165
+Your Answer: Option A
+Correct Answer: Option D
+Explanation:
+Let the given numbers be A, B, C, D, E, F, G.
+Then, A, A x 1 + 1, B x 2 + 2, C x 3 + 3, D x 4 + 4, E x 5 + 5, F x 6 + 6 are the required numbers.
+Clearly, 228 is wrong.
+
+15.	One pipe can fill a tank three times as fast as another pipe. If together the two pipes can fill the tank in 36 minutes, then the slower pipe alone will be able to fill the tank in:
+	A.	81 min.
+	B.	108 min.	
+	C.	144 min.
+	D.	192 min.
+Your Answer: Option B
+Correct Answer: Option C
+Explanation:
+Let the slower pipe alone fill the tank in x minutes.
+Then, faster pipe will fill it in	x	minutes.
+3
+	1	+	3	=	1
+x	x	36
+	4	=	1
+x	36
+ x = 144 min.
+ 
+15. Two pipes A and B can fill a cistern in 37 minutes and 45 minutes respectively. Both pipes are opened. The cistern will be filled in just half an hour, if the B is turned off after:
+	A.	5 min.
+	B.	9 min.
+	C.	10 min.	
+	D.	15 min.
+Your Answer: Option C
+Correct Answer: Option B
+Explanation:
+Let B be turned off after x minutes. Then,
+Part filled by (A + B) in x min. + Part filled by A in (30 -x) min. = 1.
+
+ x		2	+	1		+ (30 - x).	2	= 1
+75	45	75
+	11x	+	(60 -2x)	= 1
+225	75
+ 11x + 180 - 6x = 225.
+
+ x = 9.
+ 
+ 18.	What is the area of rectangular field?
+I. The perimeter of the field is 110 metres.
+II. The length is 5 metres more than the width.
+III. The ratio between length and width is 6 : 5 respectively.
+
+	A.	I and II only
+	B.	Any two of the three
+	C.	All I, II and III	
+	D.	I, and either II or III only
+	E.	None of these
+Your Answer: Option C
+Correct Answer: Option B
+Explanation:
+
+  I. 2(l + b) = 110          l + b = 55.
+
+ II. l = (b + 5)          l - b = 5.
+
+III.	l	=	6	         5l - 6b = 0.
+b	5
+These are three equations in l and b. We may solve them pairwise.
+
+ Any two of the three will give the answer.
+
+ Correct answer is (B).
+ 
+ 20.	The present worth of a sum due sometime hence is Rs. 576 and the banker's gain is Rs. 16. The true discount is:
+
+	A.	Rs. 36
+	B.	Rs. 72	
+	C.	Rs. 48
+	D.	Rs. 96
+Your Answer: Option B
+
+Correct Answer: Option D
+Explanation:
+T.D. = P.W. x B.G. = 576 x 16 = 96.
+
+APTITUDE TEST 2
+3.	.009	= .01?
+	A.	.0009
+	B.	.09	
+	C.	.9
+	D.	9
+Your Answer: Option B
+Correct Answer: Option C
+
+Explanation:
+
+Let	.009	= .01;     Then x =	.009	=	.9	= .9
+x	.01	1
+
+5.	If x =	3 + 1	and y =	3 - 1	, then the value of (x2 + y2) is:
+3 - 1	3 + 1
+
+	A.	10
+	B.	13	
+	C.	14
+	D.	15
+Your Answer: Option B
+Correct Answer: Option C
+Explanation:
+
+x =	(3 + 1)	x	(3 + 1)	=	(3 + 1)2	=	3 + 1 + 23	= 2 + 3.
+(3 - 1)	(3 + 1)	(3 - 1)	2
+y =	(3 - 1)	x	(3 - 1)	=	(3 - 1)2	=	3 + 1 - 23	= 2 - 3.
+(3 + 1)	(3 - 1)	(3 - 1)	2
+ x2 + y2 = (2 + 3)2 + (2 - 3)2
+
+   = 2(4 + 3)
+
+   = 14
+   
+6.	What is Arun's present age?
+I. Five years ago, Arun's age was double that of his son's age at that time.
+II. Present ages of Arun and his son are in the ratio of 11 : 6 respectively.
+III. Five years hence, the respective ratio of Arun's age and his son's age will become 12 : 7.
+	A.	Only I and II
+	B.	Only II and III	
+	C.	Only I and III
+	D.	Any two of the three
+	E.	None of these
+Your Answer: Option B
+
+Correct Answer: Option D
+
+Explanation:
+II. Let the present ages of Arun and his son be 11x and 6x years respectively.
+I. 5 years ago, Arun's age = 2 x His son's age.
+III. 5 years hence,	Arun's Age	=	12
+Son's age	7
+
+7.	If A = x% of y and B = y% of x, then which of the following is true?
+
+	A.	A is smaller than B.
+	B.	A is greater than B
+	C.	Relationship between A and B cannot be determined.	
+	D.	If x is smaller than y, then A is greater than B.
+	E.	None of these
+Your Answer: Option C
+Correct Answer: Option E
+Explanation:
+x% of y =		x	x y		=		y	x x		= y% of x
+100	100
+ A = B.
+ 
+8.	If 20% of a = b, then b% of 20 is the same as:
+	A.	4% of a
+	B.	5% of a	
+	C.	20% of a
+	D.	None of these
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+20% of a = b      	20	a = b.
+100
+ b% of 20 =		b	x 20		=		20	a x	1	x 20		=	4	a = 4% of a.
+100	100	100	100
+
+9.	3 pumps, working 8 hours a day, can empty a tank in 2 days. How many hours a day must 4 pumps work to empty the tank in 1 day?
+	A.	9
+	B.	10	
+	C.	11
+	D.	12
+Your Answer: Option B
+Correct Answer: Option D
+Explanation:
+
+Let the required number of working hours per day be x.
+
+More pumps, Less working hours per day (Indirect Proportion)
+
+Less days, More working hours per day (Indirect Proportion)
+
+Pumps	4	:	3		:: 8 : x
+Days	1	:	2
+ 4 x 1 x x = 3 x 2 x 8
+
+ x =	(3 x 2 x 8)
+ 
+(4)
+ x = 12.
+ 
+ 13.	A man walked diagonally across a square lot. Approximately, what was the percent saved by not walking along the edges?
+	A.	20
+	B.	24	
+	C.	30
+	D.	33
+Your Answer: Option B
+Correct Answer: Option C
+
+Explanation:
+Let the side of the square(ABCD) be x metres.
+
+Then, AB + BC = 2x metres.
+AC = 2x = (1.41x) m.
+Saving on 2x metres = (0.59x) m.
+Saving % =		0.59x	x 100	%	= 30% (approx.)
+2x
+
+9.By investing in 16% stock at 64, one earns Rs. 1500. The investment made is:
+	A.	Rs. 5640
+	B.	Rs. 5760
+	C.	Rs. 7500	
+	D.	Rs. 9600
+Your Answer: Option C
+Correct Answer: Option B
+Explanation:
+
+To earn Rs.	50	, investment = Rs. 64.
+3
+To earn Rs. 1500, investment = Rs.		64 x	3	x 1500		= Rs. 5760.
+50
+
+15.	A man buys a watch for Rs. 1950 in cash and sells it for Rs. 2200 at a credit of 1 year. If the rate of interest is 10% per annum, the man:
+	A.	gains Rs. 55
+	B.	gains Rs. 50
+	C.	loses Rs. 30	
+	D.	gains Rs. 30
+Your Answer: Option C
+Correct Answer: Option B
+
+Explanation:
+
+S.P.	= P.W. of Rs. 2200 due 1 year hence
+= Rs.		2200 x 100	
+100 + (10 x 1)
+= Rs. 2000.
+ Gain = Rs. (2000 - 1950) = Rs. 50.
+ 
+ 
