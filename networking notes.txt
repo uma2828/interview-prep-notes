@@ -1,0 +1,37 @@
+Basics of Computer Networking
+Open system:
+A system which is connected to the network and is ready for communication.
+
+Closed system:
+A system which is not connected to the network and can’t be communicated with.
+
+Computer Network: 
+It is the interconnection of multiple devices, generally termed as Hosts connected using multiple paths for the purpose of sending/receiving data or media.
+
+OSI:
+OSI stands for Open Systems Interconnection. It is a reference model that specifies standards for communications protocols and also the functionalities of each layer.
+Protocol: 
+Protocol is the set of rules or algorthims which define the way how two entities can communicate across the network
+
+Host name:
+Each device in the network is associated with a unique device name known as Hostname.
+
+IP Address (Internet Protocol address):
+Also know as Logical Address, is the network address of the system across the network.
+MAC Address (Media Access Control address): 
+Also known as physical address, is the unique identifier of each host and is associated with the NIC (Network Interface Card).
+
+Port: 
+Port can be referred as logical channel through which data can be sent/received to an application. 
+
+DNS Server:
+DNS stands for Domain Name system.
+DNS is basically a server which translate web addresses or URL (ex: www.google.com) into their corresponding IP addresses
+
+ARP:
+ARP stands for Address Resolution Protocol.
+It is used to convert the IP address to its corresponding Physical Address(i.e.MAC Address).
+ARP is used by the Data Link Layer to identify the MAC address of the Receiver’s machine.
+RARP:
+RARP stands for Reverse Address Resolution Protocol.
+As the name suggest, it provides the IP address of the a device given physical address as input. But RARP has become obsolete since the time DHCP has come into picture.
