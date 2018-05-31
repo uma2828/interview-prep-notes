@@ -1,0 +1,192 @@
+1.	In a regular week, there are 5 working days and for each day, the working hours are 8. A man gets Rs. 2.40 per hour for regular work and Rs. 3.20 per hours for overtime. 
+If he earns Rs. 432 in 4 weeks, then how many hours does he work for ?
+	A.	160
+	B.	175
+	C.	180	
+	D.	195
+Your Answer: Option C
+Correct Answer: Option B
+Explanation:
+suppose the man works overtime for x hours.
+Now, working hours in 4 weeks = (5 x 8 x 4) = 160.
+
+ 160 x 2.40 + x x 3.20 = 432
+
+ 3.20x = 432 - 384 = 48
+
+ x = 15.
+Hence, total hours of work = (160 + 15) = 175.
+
+4.	In a two-digit, if it is known that its unit's digit exceeds its ten's digit by 2 and that the product of the given number and the sum of its digits is equal to 144, 
+then the number is:
+	A.	24
+	B.	26	
+	C.	42
+	D.	46
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+Let the ten's digit be x.
+then, unit's digit = x + 2.
+Number = 10x + (x + 2) = 11x + 2.
+Sum of digits = x + (x + 2) = 2x + 2.
+
+ (11x + 2)(2x + 2) = 144
+
+ 22x2 + 26x - 140 = 0
+
+ 11x2 + 13x - 70 = 0
+
+ (x - 2)(11x + 35) = 0
+
+ x = 2.
+Hence, required number = 11x + 2 = 24.
+
+7.	
+What is the present age of Tanya?
+
+I. 
+
+The ratio between the present ages of Tanya and her brother Rahul is 3 : 4 respectively.
+
+II. 
+
+After 5 years the ratio between the ages of Tanya and Rahul will be 4 : 5.
+
+ III. 
+
+Rahul is 5 years older than Tanya.
+
+	A.	
+I and II only
+	B.	
+II and III only
+	C.	
+I and III only	
+	D.	
+All I, II and III
+	E.	
+Any two of the three
+Your Answer: Option C
+
+Correct Answer: Option E
+
+Explanation:
+
+  I. Let the present ages of Tanya and Rahul be 3x years and 4x years.
+
+ II. After 5 years, (Tanya's age) : (Rahul's age) = 4 : 5.
+
+III. (Rahul's age) = (Tanya's age) + 5.
+
+
+From I and II, we get	3x + 5	=	4	. This gives x.
+4x + 5	5
+ Tanya's age = 3x can be found. Thus, I and II give the answer.
+
+
+From I and III, we get 4x = 3x + 5. This gives x.
+
+ Tanya's age = 3x can be found. Thus, I and III give the answer.
+
+
+From III : Let Tanya's present age be t years.
+
+Then Rahul's present age = (t + 5) years.
+
+Thus, from II and III, we get :	t	=	4	. This gives t.
+t + 5	5
+Thus, II and III give the answer.
+
+ Correct answer is (E).
+
+Learn more problems on : Problems on Ages
+
+Discuss about this problem : Discuss in Forum
+
+9.	A trader mixes 26 kg of rice at Rs. 20 per kg with 30 kg of rice of other variety at Rs. 36 per kg and sells the mixture at Rs. 30 per kg. His profit percent is:
+	A.	No profit, no loss
+	B.	5%
+	C.	8%
+	D.	10%	
+	E.	None of these
+Your Answer: Option D
+Correct Answer: Option B
+Explanation:
+C.P. of 56 kg rice = Rs. (26 x 20 + 30 x 36) = Rs. (520 + 1080) = Rs. 1600.
+S.P. of 56 kg rice = Rs. (56 x 30) = Rs. 1680.
+
+Gain =		80	x 100	% = 5%.
+1600
+
+11.	An industrial loom weaves 0.128 metres of cloth every second. Approximately, how many seconds will it take for the loom to weave 25 metres of cloth?
+	A.	178
+	B.	195
+	C.	204	
+	D.	488
+Your Answer: Option C
+Correct Answer: Option B
+Explanation:
+Le the required time be x seconds.
+More metres, More time (Direct Proportion)
+0.128 : 25 :: 1 : x        0.128x = 25 x 1
+
+x =	25	=	25 x 1000
+0.128	128
+
+ x = 195.31.
+Required time = 195 sec (approximately).
+
+16.	The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface.
+	A.	30 m2
+	B.	40 m2	
+	C.	60 m2
+	D.	80 m2
+Your Answer: Option B
+Correct Answer: Option C
+Explanation:
+l = 10 m,
+h = 8 m.
+So, r = l2 - h2 = (10)2 - 82 = 6 m.
+Curved surface area = rl = ( x 6 x 10) m2 = 60 m2.
+
+17.	A man wants to sell his scooter. There are two offers, one at Rs. 12,000 cash and the other a credit of Rs. 12,880 to be paid after 8 months, money being at 18% per annum. Which is the better offer?
+	A.	Rs. 12,000 in cash
+	B.	s. 12,880 at credit	
+	C.	Both are equally good
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+P.W. of Rs. 12,880 due 8 months hence	
+= Rs.		12880 x 100	
+100 +		18 x	8	
+12
+= Rs.		12880 x 100	
+112
+= Rs. 11500.
+
+18.	The banker's discount of a certain sum of money is Rs. 72 and the true discount on the same sum for the same time is Rs. 60. The sum due is:
+	A.	Rs. 360
+	B.	Rs. 432	
+	C.	Rs. 540
+	D.	Rs. 1080
+Your Answer: Option B
+Correct Answer: Option A
+
+Explanation:
+Sum =	B.D. x T.D.	= Rs.		72 x 60		= Rs.		72 x 60		= Rs. 360.
+B.D. - T.D.	72 - 60	12
+
+19.	A man standing at a point P is watching the top of a tower, which makes an angle of elevation of 30º with the man's eye. The man walks some distance towards the tower to watch its top and the angle of the elevation becomes 60º. What is the distance between the base of the tower and the point P?
+	A.	43 units	
+	B.	8 units
+	C.	12 units
+	D.	Data inadequate
+	E.	None of these
+Your Answer: Option A
+Correct Answer: Option D
+Explanation:
+One of AB, AD and CD must have given.
+
+
+So, the data is inadequate.
