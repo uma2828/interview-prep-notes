@@ -1,0 +1,213 @@
+1.	A fires 5 shots to B's 3 but A kills only once in 3 shots while B kills once in 2 shots. When B has missed 27 times, A has killed:
+	A.	30 birds
+	B.	60 birds	
+	C.	72 birds
+	D.	90 birds
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+Let the total number of shots be x. Then,
+Shots fired by A =	5	x
+8
+Shots fired by B =	3	x
+8
+Killing shots by A =	1	of	5	x	=	5	x
+3	8	24
+Shots missed by B =	1	of	3	x	=	3	x
+2	8	16
+	3x	= 27 or x =		27 x 16		= 144.
+16	3
+Birds killed by A =	5x	=		5	x 144		= 30.
+24	24
+
+2.	Six years ago, the ratio of the ages of Kunal and Sagar was 6 : 5. Four years hence, the ratio of their ages will be 11 : 10. What is Sagar's age at present?
+	A.	16 years
+	B.	18 years
+	C.	20 years
+	D.	Cannot be determined	
+	E.	None of these
+Your Answer: Option D
+Correct Answer: Option A
+Explanation:
+Let the ages of Kunal and Sagar 6 years ago be 6x and 5x years respectively.
+Then,	(6x + 6) + 4	=	11
+(5x + 6) + 4	10
+ 10(6x + 10) = 11(5x + 10)
+
+ 5x = 10
+ x = 2.
+ Sagar's present age = (5x + 6) = 16 years.
+ 
+4.	1 	+	1	+	1	= ?
+1 + x(b - a) + x(c - a)	1 + x(a - b) + x(c - b)	1 + x(b - c) + x(a - c)
+	A.	0
+	B.	1
+	C.	xa - b - c	
+	D.	None of these
+Your Answer: Option C
+Correct Answer: Option B
+Explanation:
+Given Exp. =	
+1	 + 	1	 + 	1
+	1 +	xb	+	xc	
+xa	xa
+	1 +	xa	+	xc	
+xb	xb
+	1 +	xb	+	xa	
+xc	xc
+   =	xa	+	xb	+	xc
+(xa + xb + xc)	(xa + xb + xc)	(xa + xb + xc)
+   =	(xa + xb + xc)
+(xa + xb + xc)
+   = 1.
+   
+5.	1	+	1	= ?
+1 + a(n - m)	1 + a(m - n)
+	A.	0
+	B.	12
+	C.	1
+	D.	am + n	
+Your Answer: Option D
+Correct Answer: Option C
+Explanation:
+
+1	+	1	=	
+1	 + 	1
+	1 +	an	
+am
+	1 +	am	
+an
+1 + a(n - m)	1 + a(m - n)
+   =	am	+	an
+(am + an)	(am + an)
+   =	(am + an)
+(am + an)
+   = 1.
+
+6.	Simran started a software business by investing Rs. 50,000. After six months, Nanda joined her with a capital of Rs. 80,000. After 3 years, they earned a profit of Rs. 24,500. What was Simran's share in the profit?
+	A.	Rs. 9,423
+	B.	Rs. 10,250
+	C.	Rs. 12,500	
+	D.	Rs. 10,500
+Your Answer: Option C
+Correct Answer: Option D
+Explanation:
+
+Simran : Nanda = (50000 x 36) : (80000 x 30) = 3 : 4.
+ Simran's share = Rs.		24500 x	3		= Rs. 10,500.
+7
+
+7.	A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?
+	A.	12 days	
+	B.	15 days
+	C.	16 days
+	D.	18 days
+Your Answer: Option A
+Correct Answer: Option B
+Explanation:
+A's 2 day's work =		1	x 2		=	1	.
+20	10
+(A + B + C)'s 1 day's work =		1	+	1	+	1		=	6	=	1	.
+20	30	60	60	10
+Work done in 3 days =		1	+	1		=	1	.
+10	10	5
+Now,	1	work is done in 3 days.
+5
+ Whole work will be done in (3 x 5) = 15 days.
+
+8.Robert is travelling on his cycle and has calculated to reach point A at 2 P.M. if he travels at 10 kmph, he will reach there at 12 noon if he travels at 15 kmph. At what speed must he travel to reach A at 1 P.M.?
+	A.	8 kmph
+	B.	11 kmph	
+	C.	12 kmph
+	D.	14 kmph
+Your Answer: Option B
+Correct Answer: Option C
+Explanation:
+Let the distance travelled by x km.
+Then,	x	-	x	= 2
+10	15
+ 3x - 2x = 60
+
+ x = 60 km.
+
+Time taken to travel 60 km at 10 km/hr =		60	hrs	= 6 hrs.
+10
+So, Robert started 6 hours before 2 P.M. i.e., at 8 A.M.
+
+ Required speed =		60	kmph.	= 12 kmph.
+5
+
+9.	A man rows to a place 48 km distant and come back in 14 hours. He finds that he can row 4 km with the stream in the same time as 3 km against the stream. The rate of the stream is:
+	A.	1 km/hr
+	B.	1.5 km/hr	
+	C.	2 km/hr
+	D.	2.5 km/hr
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+Suppose he move 4 km downstream in x hours. Then,
+
+Speed downstream =		4		km/hr.
+x
+Speed upstream =		3		km/hr.
+x
+	48	+	48	= 14 or x =	1	.
+(4/x)	(3/x)	2
+So, Speed downstream = 8 km/hr, Speed upstream = 6 km/hr.
+
+Rate of the stream =	1	(8 - 6) km/hr = 1 km/hr.
+2
+
+11.	If log	a	+	log	b	= log (a + b), then:
+b	a
+
+	A.	a + b = 1
+	B.	a - b = 1
+	C.	a = b
+	D.	a2 - b2 = 1	
+Your Answer: Option D
+Correct Answer: Option A
+Explanation:
+log	a	+ log	b	= log (a + b)
+b	a
+ log (a + b) = log		a	x	b		= log 1.
+b	a
+So, a + b = 1.
+
+14.	An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?
+	A.	144º
+	B.	150º	
+	C.	168º
+	D.	180º
+Your Answer: Option B
+Correct Answer: Option D
+Explanation:
+Angle traced by the hour hand in 6 hours =		360	x 6		º	= 180º.
+12
+
+16.	The market value of a 10.5% stock, in which an income of Rs. 756 is derived by investing Rs. 9000, brokerage being %, is:
+	A.	Rs. 108.25	
+	B.	Rs. 112.20
+	C.	Rs. 124.75
+	D.	Rs. 125.25
+Your Answer: Option A
+Correct Answer: Option C
+Explanation:
+For an income of Rs. 756, investment = Rs. 9000.
+For an income of Rs.	21	, investment = Rs.		9000	x	21		= Rs. 125.
+2	756	2
+ For a Rs. 100 stock, investment = Rs. 125.
+Market value of Rs. 100 stock = Rs.		125 -	1		= Rs. 124.75
+4
+
+18.	One card is drawn at random from a pack of 52 cards. What is the probability that the card drawn is a face card (Jack, Queen and King only)?
+	A.	113
+	B.	313
+	C.	14
+	D.	952
+Your Answer: Option D
+Correct Answer: Option B
+Explanation:
+Clearly, there are 52 cards, out of which there are 12 face cards.
+ P (getting a face card) =	12	=	3	.
+52	13
