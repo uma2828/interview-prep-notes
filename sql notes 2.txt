@@ -1,0 +1,225 @@
+The SQL LIKE Operator
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+There are two wildcards used in conjunction with the LIKE operator:
+
+% - The percent sign represents zero, one, or multiple characters
+_ - The underscore represents a single character
+
+LIKE Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
+
+Example
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';
+The following SQL statement selects all customers with a CustomerName ending with "a":
+
+Example
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%a';
+The following SQL statement selects all customers with a CustomerName that have "or" in any position:
+
+Example
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%or%';
+
+The SQL IN Operator
+The IN operator allows you to specify multiple values in a WHERE clause.
+
+The IN operator is a shorthand for multiple OR conditions.
+
+IN Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+
+The SQL BETWEEN Operator
+The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+
+The BETWEEN operator is inclusive: begin and end values are included. 
+
+BETWEEN Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+
+BETWEEN with IN Example
+The following SQL statement selects all products with a price BETWEEN 10 and 20. In addition; do not show products with a CategoryID of 1,2, or 3:
+
+Example
+SELECT * FROM Products
+WHERE (Price BETWEEN 10 AND 20)
+AND NOT CategoryID IN (1,2,3);
+
+NOT BETWEEN Text Values Example
+The following SQL statement selects all products with a ProductName NOT BETWEEN 'Carnarvon Tigers' and 'Mozzarella di Giovanni':
+
+Example
+SELECT * FROM Products
+WHERE ProductName NOT BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
+ORDER BY ProductName;
+
+SQL Aliases
+SQL aliases are used to give a table, or a column in a table, a temporary name.
+
+Aliases are often used to make column names more readable.
+
+Alias Column Syntax
+SELECT column_name AS alias_name
+FROM table_name;
+
+SQL JOIN
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+Example
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+
+Different Types of SQL JOINs
+Here are the different types of the JOINs in SQL:
+
+(INNER) JOIN: Returns records that have matching values in both tables
+LEFT (OUTER) JOIN: Return all records from the left table, and the matched records from the right table
+RIGHT (OUTER) JOIN: Return all records from the right table, and the matched records from the left table
+FULL (OUTER) JOIN: Return all records when there is a match in either left or right table
+
+JOIN Three Tables
+The following SQL statement selects all orders with customer and shipper information:
+
+Example
+SELECT Orders.OrderID, Customers.CustomerName, Shippers.ShipperName
+FROM ((Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID)
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID);
+
+SQL LEFT JOIN Example
+The following SQL statement will select all customers, and any orders they might have:
+
+Example
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+ORDER BY Customers.CustomerName;
+
+RIGHT JOIN Syntax
+SELECT column_name(s)
+FROM table1
+RIGHT JOIN table2 ON table1.column_name = table2.column_name;
+
+ULL OUTER JOIN Syntax
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2 ON table1.column_name = table2.column_name;
+
+SQL Self JOIN Example
+The following SQL statement matches customers that are from the same city:
+
+Example
+SELECT A.CustomerName AS CustomerName1, B.CustomerName AS CustomerName2, A.City
+FROM Customers A, Customers B
+WHERE A.CustomerID <> B.CustomerID
+AND A.City = B.City 
+ORDER BY A.City;
+
+The SQL UNION Operator
+The UNION operator is used to combine the result-set of two or more SELECT statements.
+
+Each SELECT statement within UNION must have the same number of columns
+The columns must also have similar data types
+The columns in each SELECT statement must also be in the same order
+UNION Syntax
+SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;
+UNION ALL Syntax
+The UNION operator selects only distinct values by default. To allow duplicate values, use UNION ALL:
+
+SELECT column_name(s) FROM table1
+UNION ALL
+SELECT column_name(s) FROM table2;
+
+SQL GROUP BY Examples
+The following SQL statement lists the number of customers in each country:
+
+Example
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country;
+
+GROUP BY With JOIN Example
+The following SQL statement lists the number of orders sent by each shipper:
+
+Example
+SELECT Shippers.ShipperName, COUNT(Orders.OrderID) AS NumberOfOrders FROM Orders
+LEFT JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
+GROUP BY ShipperName;
+
+The SQL HAVING Clause
+The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions.
+
+HAVING Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+
+SQL EXISTS Examples
+The following SQL statement returns TRUE and lists the suppliers with a product price less than 20:
+
+Example
+SELECT SupplierName
+FROM Suppliers
+WHERE EXISTS (SELECT ProductName FROM Products WHERE SupplierId = Suppliers.supplierId AND Price < 20);
+
+The SQL ANY and ALL Operators
+The ANY and ALL operators are used with a WHERE or HAVING clause.
+
+The ANY operator returns true if any of the subquery values meet the condition.
+
+The ALL operator returns true if all of the subquery values meet the condition.
+
+ANY Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name operator ANY
+(SELECT column_name FROM table_name WHERE condition);
+
+ALL Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name operator ALL
+(SELECT column_name FROM table_name WHERE condition);
+
+The SQL SELECT INTO Statement
+The SELECT INTO statement copies data from one table into a new table.
+
+SELECT INTO Syntax
+Copy all columns into a new table:
+
+SELECT *
+INTO newtable [IN externaldb]
+FROM oldtable
+WHERE condition;
+Copy only some columns into a new table:
+
+SELECT column1, column2, column3, ...
+INTO newtable [IN externaldb]
+FROM oldtable
+WHERE condition;
+
+The SQL INSERT INTO SELECT Statement
+The INSERT INTO SELECT statement copies data from one table and inserts it into another table.
+
+INSERT INTO SELECT requires that data types in source and target tables match
+The existing records in the target table are unaffected
+INSERT INTO SELECT Syntax
+Copy all columns from one table to another table:
+
+INSERT INTO table2
+SELECT * FROM table1
+WHERE condition;
