@@ -1,0 +1,142 @@
+Types of Network Topology
+Network Topology is the schematic description of a network arrangement, connecting various nodes(sender and receiver) through lines of connection.
+
+BUS Topology
+Bus topology is a network type in which every computer and network device is connected to single cable. When it has exactly two endpoints, then it is called Linear Bus topology.
+
+RING Topology
+It is called ring topology because it forms a ring as each computer is connected to another computer, with the last one connected to the first. Exactly two neighbours for each device.
+
+STAR Topology
+In this type of topology all the computers are connected to a single hub through a cable. This hub is the central node and all others nodes are connected to the central node.
+
+MESH Topology
+It is a point-to-point connection to other nodes or devices. All the network nodes are connected to each other. Mesh has n(n-1)/2 physical channels to link n devices.
+
+There are two techniques to transmit data over the Mesh topology, they are :
+
+Routing
+Flooding
+
+TREE Topology
+It has a root node and all other nodes are connected to it forming a hierarchy. It is also called hierarchical topology. It should at least have three levels to the hierarchy.
+
+HYBRID Topology
+It is two different types of topologies which is a mixture of two or more topologies. 
+For example if in an office in one department ring topology is used and in another star topology is used, connecting these topologies will result in 
+Hybrid Topology (ring topology and star topology).
+
+Types of Communication Networks
+Communication Networks can be of following 5 types:
+
+Local Area Network (LAN)
+Metropolitan Area Network (MAN)
+Wide Area Network (WAN)
+Wireless
+Inter Network (Internet)
+
+Local Area Network (LAN)
+It is also called LAN and designed for small physical areas such as an office, group of buildings or a factory. LANs are used widely as it is easy to design and to troubleshoot
+
+Metropolitan Area Network (MAN)
+It was developed in 1980s.It is basically a bigger version of LAN. It is also called MAN and uses the similar technology as LAN. It is designed to extend over the entire city
+
+Wide Area Network (WAN)
+It is also called WAN. WAN can be private or it can be public leased network. It is used for the network that covers large distance such as cover states of a country.
+
+Wireless Network
+Digital wireless communication is not a new idea. Earlier, Morse code was used to implement wireless networks. 
+Wireless Networks can be divided into three main categories:
+
+System interconnection
+Wireless LANs
+Wireless WANs
+System Interconnection
+System interconnection is all about interconnecting the components of a computer using short-range radio.It can use master slave concept.
+
+Wireless LANs
+These are the systems in which every computer has a radio modem and antenna with which it can communicate with other systems. 
+
+Wireless WANs
+The radio network used for cellular telephones is an example of a low-bandwidth wireless WAN. This system has already gone through three generations.
+
+nter Network
+Inter Network or Internet is a combination of two or more networks. Inter network can be formed by joining two or more individual networks by means of various devices 
+such as routers, gateways and bridges.
+
+Reference Models in Communication Networks
+The most important reference models are :
+
+OSI reference model.
+TCP/IP reference model.
+Introduction to ISO-OSI Model
+There are many users who use computer network and are located all over the world. To ensure national and worldwide data communication ISO (ISO stands for International Organization of Standardization.)
+developed this model.
+
+Introduction to TCP/IP Reference Model
+TCP/IP is transmission control protocol and internet protocol. Protocols are set of rules which govern every possible communication over the internet
+
+Physical Layer - OSI Reference Model
+Physical layer is the lowest layer of the OSI reference model. It is responsible for sending bits from one computer to another. 
+
+Functions of Physical Layer
+Representation of Bits: Data in this layer consists of stream of bits. The bits must be encoded into signals for transmission. It defines the type of encoding i.e. how 0's and 1's are changed to signal.
+Data Rate: This layer defines the rate of transmission which is the number of bits per second.
+Synchronization: It deals with the synchronization of the transmitter and receiver. The sender and receiver are synchronized at bit level.
+Interface: The physical layer defines the transmission interface between devices and transmission medium.
+Line Configuration: This layer connects devices with the medium: Point to Point configuration and Multipoint configuration.
+Topologies: Devices must be connected using the following topologies: Mesh, Star, Ring and Bus.
+Transmission Modes: Physical Layer defines the direction of transmission between two devices: Simplex, Half Duplex, Full Duplex.
+
+Data Link Layer - OSI Model
+Data link layer performs the most reliable node to node delivery of data. It forms frames from the packets that are received from network layer and gives it to physical layer.
+
+Functions of Datalink layer:
+Framing: Frames are the streams of bits received from the network layer into manageable data units.
+
+Physical Addressing: The Data Link layer adds a header to the frame in order to define physical address of the sender or receiver of the frame, 
+if the frames are to be distributed to different systems on the network.
+
+Flow Control: A flow control mechanism to avoid a fast transmitter from running a slow receiver by buffering the extra bit is provided by flow control.
+
+Error Control: Error control is achieved by adding a trailer at the end of the frame. Duplication of frames are also prevented by using this mechanism.
+
+Access Control: Protocols of this layer determine which of the devices has control over the link at any given time, when two or more devices are connected to the same link.
+
+Network Layer - OSI Model
+The network Layer controls the operation of the subnet. The main aim of this layer is to deliver packets from source to destination across multiple links (networks). 
+Functions of Network Layer
+It translates logical network address into physical address
+
+Transport Layer - OSI Model
+The basic function of the Transport layer is to accept data from the layer above, split it up into smaller units, pass these data units to the Network layer,
+and ensure that all the pieces arrive correctly at the other end.
+Functions of Transport Layer
+Service Point Addressing: Transport Layer header includes service point address which is port address.
+Connection Control: It includes 2 types:
+Connectionless Transport Layer : Each segment is considered as an independent packet and delivered to the transport layer at the destination machine.
+Connection Oriented Transport Layer : Before delivering packets, connection is made with transport layer at the destination machine.
+
+Session Layer - OSI Model
+The Session Layer allows users on different machines to establish active communication sessions between them.
+Functions of Session Layer
+Dialog Control : This layer allows two systems to start communication with each other in half-duplex or full-duplex.
+Token Management: This layer prevents two parties from attempting the same critical operation at the same time.
+
+Presentation Layer - OSI Model
+The primary goal of this layer is to take care of the syntax and semantics of the information exchanged between two communicating systems.
+
+Application Layer - OSI Model
+It is the top most layer of OSI Model. Manipulation of data(information) in various ways is done in this layer which enables user or software to get access to the network. 
+Some services provided by this layer includes: E-Mail, transferring files, distributing the results to user, directory services, network resources, etc
+
+TCP(Transmission Control Protocol): It is a reliable connection-oriented protocol which handles byte-stream from source to destination without error and flow control.
+UDP(User-Datagram Protocol): It is an unreliable connection-less protocol that do not want TCPs, sequencing and flow control. Eg: One-shot request-reply kind of service.
+
+Layer 4: Application Layer
+The TCP/IP specifications described a lot of applications that were at the top of the protocol stack. Some of them were TELNET, FTP, SMTP, DNS etc.
+
+TELNET is a two-way communication protocol which allows connecting to a remote machine and run applications on it.
+FTP(File Transfer Protocol) is a protocol, that allows File transfer amongst computer users connected over a network. It is reliable, simple and efficient.
+SMTP(Simple Mail Transport Protocol) is a protocol, which is used to transport electronic mail between a source and destination, directed via a route.
+DNS(Domain Name Server) resolves an IP address into a textual address for Hosts connected over a network.
