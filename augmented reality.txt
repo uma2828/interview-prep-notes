@@ -1,0 +1,33 @@
+AUGMENTED REALITY – INTRODUCTION AND ITS REAL WORLD USES
+      Augmented reality is a technology that works on computer vision based recognition algorithms to augment sound, video, graphics and other sensor based inputs
+on real world objects using the camera of your device.
+	   Real world + Virtual image = Augmented reality
+	   ex: Movie Endiran.
+	   
+Real-World Examples
+AR applications can become the backbone of the education industry. Apps are being developed which embed text, images, and videos, as well as real–world curriculums.
+Printing and advertising industries are developing apps to display digital content on top of real world magazines.
+With the help of Unity 3d Engine, AR is being used to develop real-time 3D Games.
+
+Components of AR:
+Head-mounted
+A head-mounted display (HMD) is a display device paired to a headset such as a harness or helmet. 
+HMDs place images of both the physical world and virtual objects over the user's field of view.
+
+Contact lenses
+Contact lenses that display AR imaging are in development. 
+
+Handheld
+Handheld displays employ a small display that fits in a user's hand. All handheld AR solutions to date opt for video see-through.
+
+Applications:
+Art
+Commerce
+Education
+Gaming
+Medicine
+
+How does Augmented Reality work?
+AR can be displayed on various devices: screens, glasses, handheld devices, mobile phones, head-mounted displays. It involves technologies like S.L.A.M. 
+(simultaneous localization and mapping), depth tracking (briefly, a sensor data calculating the distance to the objects), and the following components:
+Cameras and sensors: Collecting data about user’s interactions and sending it for processing.
