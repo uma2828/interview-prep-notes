@@ -1,0 +1,208 @@
+3.	100 oranges are bought at the rate of Rs. 350 and sold at the rate of Rs. 48 per dozen. The percentage of profit or loss is:
+	A.	14	2	% gain7
+	B.	15% gain	
+	C.	14	2	% loss7
+	D.	15 % loss
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+C.P. of 1 orange = Rs.		350		= Rs. 3.50
+100
+S.P. of 1 orange = Rs.		48		= Rs. 4
+12
+ Gain% =		0.50	x 100	%	=	100	% = 14	2	%
+3.50	7	7
+
+4.	Seats for Mathematics, Physics and Biology in a school are in the ratio 5 : 7 : 8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?
+	A.	2 : 3 : 4
+	B.	6 : 7 : 8
+	C.	6 : 8 : 9	
+	D.	None of these
+Your Answer: Option C
+Correct Answer: Option A
+Explanation:
+Originally, let the number of seats for Mathematics, Physics and Biology be 5x, 7x and 8x respectively.
+Number of increased seats are (140% of 5x), (150% of 7x) and (175% of 8x).
+		140	x 5x		,		150	x 7x		and		175	x 8x	
+100	100	100
+ 7x,	21x	and 14x.
+2
+ The required ratio = 7x :	21x	: 14x
+2
+ 14x : 21x : 28x
+ 2 : 3 : 4.
+ 
+6.If a quarter kg of potato costs 60 paise, how many paise will 200 gm cost?
+	A.	48 paise
+	B.	54 paise
+	C.	56 paise
+	D.	72 paise	
+Your Answer: Option D
+Correct Answer: Option A
+Explanation:
+Let the required weight be x kg.
+Less weight, Less cost (Direct Proportion)
+ 250 : 200 :: 60 : x       250 x x = (200 x 60)
+ x=	(200 x 60)
+250
+ x = 48.
+ 
+7.	P can complete a work in 12 days working 8 hours a day. Q can complete the same work in 8 days working 10 hours a day. If both P and Q work together, working 8 hours a day, in how many days can they complete the work?
+	A.	5	5
+11
+	B.	5	6
+11
+	C.	6	5
+11
+	D.	6	6
+11
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+
+P can complete the work in (12 x 8) hrs. = 96 hrs.
+Q can complete the work in (8 x 10) hrs. = 80 hrs.
+ P's1 hour's work =	1	and Q's 1 hour's work =	1	.
+96	80
+(P + Q)'s 1 hour's work =		1	+	1		=	11	.
+96	80	480
+So, both P and Q will finish the work in		480		hrs.
+11
+ Number of days of 8 hours each =		480	x	1		=	60	days = 5	5	days.
+11	8	11	11
+
+8.	Sakshi can do a piece of work in 20 days. Tanya is 25% more efficient than Sakshi. The number of days taken by Tanya to do the same piece of work is:
+	A.	15	
+	B.	16
+	C.	18
+	D.	25
+Your Answer: Option A
+Correct Answer: Option B
+Explanation:
+Ratio of times taken by Sakshi and Tanya = 125 : 100 = 5 : 4.
+Suppose Tanya takes x days to do the work.
+5 : 4 :: 20 : x     x =		4 x 20	
+5
+ x = 16 days.
+ 
+9.	A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:
+	A.	45 km/hr
+	B.	50 km/hr
+	C.	54 km/hr
+	D.	55 km/hr	
+Your Answer: Option D
+Correct Answer: Option B
+Explanation:
+Speed of the train relative to man =		125	m/sec
+10
+   =		25	m/sec.
+2
+   =		25	x	18	km/hr
+2	5
+   = 45 km/hr.
+
+Let the speed of the train be x km/hr. Then, relative speed = (x - 5) km/hr.
+
+ x - 5 = 45          x = 50 km/hr.
+ 
+ 10.Two trains, each 100 m long, moving in opposite directions, cross each other in 8 seconds. If one is moving twice as fast the other, then the speed of the faster train is:
+	A.	30 km/hr
+	B.	45 km/hr	
+	C.	60 km/hr
+	D.	75 km/hr
+Your Answer: Option B
+Correct Answer: Option C
+Explanation:
+Let the speed of the slower train be x m/sec.
+Then, speed of the faster train = 2x m/sec.
+Relative speed = (x + 2x) m/sec = 3x m/sec.
+
+	(100 + 100)	= 3x
+8
+ 24x = 200
+
+ x =	25	.
+3
+So, speed of the faster train =	50	m/sec
+3
+   =		50	x	18	km/hr
+3	5
+   = 60 km/hr.
+   
+10.	Two trains, each 100 m long, moving in opposite directions, cross each other in 8 seconds. If one is moving twice as fast the other, then the speed of the faster train is:
+	A.	30 km/hr
+	B.	45 km/hr	
+	C.	60 km/hr
+	D.	75 km/hr
+Your Answer: Option B
+Correct Answer: Option C
+Explanation:
+Let the speed of the slower train be x m/sec.
+
+Then, speed of the faster train = 2x m/sec.
+Relative speed = (x + 2x) m/sec = 3x m/sec.
+
+	(100 + 100)	= 3x
+8
+ 24x = 200
+
+ x =	25	.
+3
+So, speed of the faster train =	50	m/sec
+3
+   =		50	x	18	km/hr
+3	5
+   = 60 km/hr.
+   
+17.	At what time between 5.30 and 6 will the hands of a clock be at right angles?
+	A.	
+43	5	min. past 5
+11
+	B.	
+43	7	min. past 5
+11
+	C.	
+40 min. past 5	
+	D.	
+45 min. past 5
+Your Answer: Option C
+
+Correct Answer: Option B
+
+Explanation:
+
+At 5 o'clock, the hands are 25 min. spaces apart.
+
+To be at right angles and that too between 5.30 and 6, the minute hand has to gain (25 + 15) = 40 min. spaces.
+
+55 min. spaces are gained in 60 min.
+
+40 min. spaces are gained in		60	x 40	min	=	43	7	min.
+55	11
+ Required time = 43	7	min. past 5.
+11
+
+4.	At what rate of compound interest per annum will a sum of Rs. 1200 become Rs. 1348.32 in 2 years?
+
+	A.	6%
+	B.	6.5%	
+	C.	7%
+	D.	7.5%
+Your Answer: Option B
+
+Correct Answer: Option A
+
+Explanation:
+
+Let the rate be R% p.a.
+
+Then, 1200 x		1 +	R		2	= 1348.32
+100
+		1 +	R		2	=	134832	=	11236
+100	120000	10000
+		1 +	R		2	=		106		2
+100	100
+ 1 +	R	=	106
+100	100
+ R = 6%
+
