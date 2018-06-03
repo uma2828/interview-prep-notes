@@ -1,0 +1,316 @@
+2.	If the sum of two numbers is 55 and the H.C.F. and L.C.M. of these numbers are 5 and 120 respectively, then the sum of the reciprocals of the numbers is equal to:
+	A.55/601
+	B.601/55
+	C.11/120
+	D.120/11
+Your Answer: Option D
+Correct Answer: Option C
+Explanation:
+Let the numbers be a and b.
+Then, a + b = 55 and ab = 5 x 120 = 600.
+the required sum =	1	+	1	=	a + b	=	55	=	11
+a	b	ab	600	120
+
+4.	The product of two numbers is 9375 and the quotient, when the larger one is divided by the smaller, is 15. The sum of the numbers is:
+	A.	380	
+	B.	395
+	C.	400
+	D.	425
+Your Answer: Option A
+Correct Answer: Option C
+Explanation:
+Let the numbers be x and y.
+Then, xy = 9375 and	x	= 15.
+y
+xy	=	9375
+(x/y)	15
+ y2 = 625.
+ y = 25.
+x = 15y = (15 x 25) = 375.
+Sum of the numbers = x + y = 375 + 25 = 400.
+
+5.	What is the two-digit number?
+I. 
+The difference between the two-digit number and the number formed by interchanging the digits is 27.
+II.
+The difference between the two digits is 3.
+III. 
+The digit at unit's place is less than that at ten's place by 3.
+	A.	I and II only
+	B.	I and III only
+	C.	All I, II and III
+	D.	I, and either II or III	
+	E.	Even with all I, II and III, answer cannot be give.
+Your Answer: Option D
+Correct Answer: Option E
+Explanation:
+Let the tens and units digit be x and y respectively.
+  I. (10x + y) - (10y + x)        x - y = 3.
+ II. x - y = 3.
+III. x - y = 3.
+Thus, even all the given three statements together do not give the answer.
+ Correct answer is (E).
+ 
+6.	Present ages of Sameer and Anand are in the ratio of 5 : 4 respectively. Three years hence, the ratio of their ages will become 11 : 9 respectively. What is Anand's present age in years?
+	A.	24
+	B.	27	
+	C.	40
+	D.	Cannot be determined
+	E.	None of these
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+Let the present ages of Sameer and Anand be 5x years and 4x years respectively.
+
+Then,	5x + 3	=	11
+4x + 3	9
+ 9(5x + 3) = 11(4x + 3)
+
+ 45x + 27 = 44x + 33
+
+ 45x - 44x = 33 - 27
+
+ x = 6.
+
+ Anand's present age = 4x = 24 years.
+
+7.	What is Sonia's present age?
+I. Sonia's present age is five times Deepak's present age.
+II. Five years ago her age was twenty-five times Deepak's age at that time.
+	A.	I alone sufficient while II alone not sufficient to answer
+	B.	II alone sufficient while I alone not sufficient to answer
+	C.	Either I or II alone sufficient to answer	
+	D.	Both I and II are not sufficient to answer
+	E.	Both I and II are necessary to answer
+Your Answer: Option C
+Correct Answer: Option E
+Explanation:
+ I. S = 5D     D =	S	....(i)
+5
+II. S - 5 = 25 (D - 5)     S = 25D - 120 ....(ii)
+
+Using (i) in (ii), we get S =		25 x	S		- 120
+5
+ 4S = 120.
+
+ S = 30.
+
+Thus, I and II both together give the answer. So, correct answer is (E).
+
+Learn more problems on : Problems on Ages
+
+Discuss about this problem : Discuss in Forum
+
+
+8.	If 3(x - y) = 27 and 3(x + y) = 243, then x is equal to:
+	A.	0	
+	B.	2
+	C.	4
+	D.	6
+Your Answer: Option A
+Correct Answer: Option C
+Explanation:
+3x - y = 27 = 33        x - y = 3 ....(i)
+
+3x + y = 243 = 35        x + y = 5 ....(ii)
+
+On solving (i) and (ii), we get x = 4.
+
+9.Some articles were bought at 6 articles for Rs. 5 and sold at 5 articles for Rs. 6. Gain percent is:
+	A.	30%
+	B.	33	1	%3
+	C.	35%	
+	D.	44%
+Your Answer: Option C
+Correct Answer: Option D
+Explanation:
+Suppose, number of articles bought = L.C.M. of 6 and 5 = 30.
+C.P. of 30 articles = Rs.		5	x 30		= Rs. 25.
+6
+S.P. of 30 articles = Rs.		6	x 30		= Rs. 36.
+5
+ Gain % =		11	x 100	% = 44%.
+25
+
+10.	What is the length of a running train?
+I. The train crosses a man in 9 seconds.
+II. The train crosses a 240 metre long platform in 24 seconds.
+	A.	I alone sufficient while II alone not sufficient to answer
+	B.	II alone sufficient while I alone not sufficient to answer
+	C.	Either I or II alone sufficient to answer	
+	D.	Both I and II are not sufficient to answer
+	E.	Both I and II are necessary to answer
+Your Answer: Option C
+Correct Answer: Option E
+Explanation:
+Time taken by train to cross a man =	Length of train	       Speed =	l	....(i)
+Speed of train	9
+Time taken by train
+to cross a platform =	(Length of train +
+Length of platform)	      Speed =	l + 240	....(ii)
+Speed of train	24
+From (i) and (ii), we get	l	=	l + 240	.
+9	24
+Thus, l can be obtained. So both I and II are necessary to get the answer.
+
+ The correct answer is (E).
+
+11.	At what time will the train reach city X from city Y?
+I. The train crosses another train of equal length of 200 metres and running in opposite directions in 15 seconds.
+II. The train leaves city Y and 7.15 a.m. for city X situated at a distance of 558 km.
+III. The 200 metres long train crosses a signal pole in 10 seconds.
+	A.	I only
+	B.	II only
+	C.	III only	
+	D.	II and III only
+	E.	All I, II and III are required.
+Your Answer: Option C
+Correct Answer: Option D
+Explanation:
+From the statement I, we get length of the train is 200 metres (Redundant info while comparing with Statement III). The rest of the info given in this statement cannot be used for calculating the speed of the train, because the two trains might run at different speed.
+
+III gives, speed =	200	m/sec = 20 m/sec =		20 x	18	km/hr = 72 km/hr.
+10	5
+II gives, time taken =		558	hrs =	31	hrs = 7	3	hrs = 7 hrs 45 min.
+72	4	4
+So, the train will reach city X at 3 p.m.
+
+Hence II and III only gives the answer.
+
+12.	What is the speed of the boat in still water?
+I. The speed downstream is 12 kmph.
+II. The speed upstream is 4 kmph.
+III. In a to and fro journey between two points, the average speed of the boat was 6 kmph.
+
+Your Answer: Option C
+
+Correct Answer: Option D
+
+Explanation:
+
+From I and II, speed of boat in still water =	1	(12 + 4) km/hr = 8 km/hr.
+2
+From II and III, we get:
+
+Using average speed =	2xy	, we get:	2 x 4 x y	= 6
+x + y	4 + y
+ 8y = 24 + 6y
+
+ y = 12.
+
+ Required speed =	1	(12 + 4) km/hr = 8 km/hr.
+2
+Similarly, I and III also give the answer.
+
+ Correct answer is (D).
+ 
+13.	Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B?
+	A.	Rs. 6400
+	B.	Rs. 6500
+	C.	Rs. 7200
+	D.	Rs. 7500	
+	E.	None of these
+Your Answer: Option D
+Correct Answer: Option A
+Explanation:
+Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).
+
+Then,		x x 14 x 2		+		(13900 - x) x 11 x 2		= 3508
+100	100
+ 28x - 22x = 350800 - (13900 x 22)
+
+ 6x = 45000
+
+ x = 7500.
+
+So, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400.
+
+14.	What is the principal sum?
+I. The sum amounts to Rs. 690 in 3 years at S.I.
+II. The sum amounts to Rs. 750 in 5 years at S.I.
+III. The rate of interest is 5% p.a.
+	A.	I and III only
+	B.	II and III only
+	C.	I and II only	
+	D.	I and III only, or II and III only
+	E.	Any two of the three
+Your Answer: Option C
+Correct Answer: Option E
+Explanation:
+Clearly, any two of the three will give us the answer.
+ Correct answer is (E).
+
+15.	66 cubic centimetres of silver is drawn into a wire 1 mm in diameter. The length of the wire in metres will be:
+	A.	84
+	B.	90
+	C.	168	
+	D.	336
+Your Answer: Option C
+Correct Answer: Option A
+Explanation:
+Let the length of the wire be h.
+Radius =	1	mm	=	1	cm.	Then,
+2	20
+	22	x	1	x	1	x h = 66.
+7	20	20
+ h =		66 x 20 x 20 x 7		= 8400 cm = 84 m.
+22
+
+16.	How many times in a day, are the hands of a clock in straight line but opposite in direction?
+	A.	20
+	B.	22
+	C.	24	
+	D.	48
+Your Answer: Option C
+Correct Answer: Option B
+Explanation:
+The hands of a clock point in opposite directions (in the same straight line) 11 times in every 12 hours. (Because between 5 and 7 they point in opposite directions at 6 o'clcok only).
+
+So, in a day, the hands point in the opposite directions 22 times.
+
+17.	The cost price of a Rs. 100 stock at 4 discount, when brokerage is	1	%	is:
+	A.	Rs. 95.75	
+	B.	Rs. 96
+	C.	Rs. 96.25
+	D.	Rs. 104.25
+Your Answer: Option A
+Correct Answer: Option C
+Explanation:
+C.P. = Rs.		100 - 4 +	1		= Rs. 96.25
+4
+
+18.	From a group of 7 men and 6 women, five persons are to be selected to form a committee so that at least 3 men are there on the committee. In how many ways can it be done?
+	A.	564
+	B.	645
+	C.	735
+	D.	756
+	E.	None of these
+Your Answer: Option (Not Answered)
+Correct Answer: Option D
+Explanation:
+We may have (3 men and 2 women) or (4 men and 1 woman) or (5 men only).
+
+ Required number of ways	= (7C3 x 6C2) + (7C4 x 6C1) + (7C5)
+=		7 x 6 x 5	x	6 x 5		+ (7C3 x 6C1) + (7C2)
+3 x 2 x 1	2 x 1
+= 525 +		7 x 6 x 5	x 6		+		7 x 6	
+3 x 2 x 1	2 x 1
+= (525 + 210 + 21)
+= 756.
+
+19.	The true discount on a bill due 9 months hence at 16% per annum is Rs. 189. The amount of the bill is:
+	A.	Rs. 1386
+	B.	Rs. 1764
+	C.	Rs. 1575
+	D.	Rs. 2268
+Your Answer: Option (Not Answered)
+Correct Answer: Option B
+Explanation:
+Let P.W. be Rs. x.
+Then, S.I. on Rs. x at 16% for 9 months = Rs. 189.
+
+ x x 16 x	9	x	1	= 189 or x = 1575.
+12	100
+ P.W. = Rs. 1575.
+
+ Sum due = P.W. + T.D. = Rs. (1575 + 189) = Rs. 1764.
