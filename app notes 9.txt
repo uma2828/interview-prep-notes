@@ -1,0 +1,153 @@
+2.	There are two examinations rooms A and B. If 10 students are sent from A to B, then the number of students in each room is the same. If 20 candidates are sent from B to A, then the number of students in A is double the number of students in B. The number of students in room A is:
+	A.	20	
+	B.	80
+	C.	100
+	D.	200
+Your Answer: Option A
+Correct Answer: Option C
+Explanation:
+Let the number of students in rooms A and B be x and y respectively.
+Then, x - 10 = y + 10      x - y = 20 .... (i)
+
+     and x + 20 = 2(y - 20)      x - 2y = -60 .... (ii)
+
+Solving (i) and (ii) we get: x = 100 , y = 80.
+
+ The required answer A = 100.
+ 
+3.	If a - b = 3 and a2 + b2 = 29, find the value of ab.
+	A.	10
+	B.	12	
+	C.	15
+	D.	18
+Your Answer: Option B
+Correct Answer: Option A
+Explanation:
+2ab = (a2 + b2) - (a - b)2
+
+   = 29 - 9 = 20
+
+   ab = 10.
+   
+5.	The salaries A, B, C are in the ratio 2 : 3 : 5. If the increments of 15%, 10% and 20% are allowed respectively in their salaries, then what will be new ratio of their salaries?
+	A.	3 : 3 : 10	
+	B.	10 : 11 : 20
+	C.	23 : 33 : 60
+	D.	Cannot be determined
+Your Answer: Option A
+Correct Answer: Option C
+Explanation:
+Let A = 2k, B = 3k and C = 5k.
+
+A's new salary =	115	of 2k =		115	x 2k		=	23k
+100	100	10
+B's new salary =	110	of 3k =		110	x 3k		=	33k
+100	100	10
+C's new salary =	120	of 5k =		120	x 5k		= 6k
+100	100
+ New ratio		23k	:	33k	: 6k		= 23 : 33 : 60
+10	10
+
+6.	A and B entered into partnership with capitals in the ratio 4 : 5. After 3 months, A withdrew  of his capital and B withdrew  of his capital. The gain at the end of 10 months was Rs. 760. A's share in this profit is:
+	A.	Rs. 330
+	B.	Rs. 360
+	C.	Rs. 380	
+	D.	Rs. 430
+Your Answer: Option C
+Correct Answer: Option A
+Explanation:
+A : B =		4x x 3 +		4x -	1	x 4x		x 7		:		5x x 3 +		5x -	1	x 5x		x 7	
+4	5
+   = (12x + 21x) : (15x + 28x)
+
+   = 33x :43x
+
+   = 33 : 43.
+
+ A's share = Rs.		760 x	33		= Rs. 330.
+76
+
+8.A goods train runs at the speed of 72 kmph and crosses a 250 m long platform in 26 seconds. What is the length of the goods train?
+	A.	230 m
+	B.	240 m
+	C.	260 m	
+	D.	270 m
+Your Answer: Option C
+Correct Answer: Option D
+Explanation:
+Speed =		72 x	5	m/sec	= 20 m/sec.
+18
+Time = 26 sec.
+
+Let the length of the train be x metres.
+
+Then,	x + 250	= 20
+26
+ x + 250 = 520
+
+ x = 270.
+ 
+10.	If log10 2 = 0.3010, then log2 10 is equal to:
+	A.	699/301
+	B.	1000/301
+	C.	0.3010	
+	D.	0.6990
+Your Answer: Option C
+Correct Answer: Option B
+Explanation:
+
+log2 10 =	1	=	1	=	10000	=	1000	.
+log10 2	0.3010	3010	301
+
+11.	An error 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area of the square is:
+	A.	2%
+	B.	2.02%
+	C.	4%	
+	D.	4.04%
+Your Answer: Option C
+Correct Answer: Option D
+Explanation:
+100 cm is read as 102 cm.
+ A1 = (100 x 100) cm2 and A2 (102 x 102) cm2.
+
+(A2 - A1) = [(102)2 - (100)2]
+
+= (102 + 100) x (102 - 100)
+
+= 404 cm2.
+
+ Percentage error =		404	x 100	%	= 4.04%
+100 x 100
+
+12.	In a shower, 5 cm of rain falls. The volume of water that falls on 1.5 hectares of ground is:
+	A.	75 cu. m
+	B.	750 cu. m
+	C.	7500 cu. m	
+	D.	75000 cu. m
+Your Answer: Option C
+Correct Answer: Option B
+Explanation:
+1 hectare = 10,000 m2
+
+So, Area = (1.5 x 10000) m2 = 15000 m2.
+
+Depth =	5	m	=	1	m.
+100	20
+ Volume = (Area x Depth) =		15000 x	1	m3	= 750 m3.
+20
+
+16.	A 12% stock yielding 10% is quoted at:
+	A.	Rs. 83.33	
+	B.	Rs. 110
+	C.	Rs. 112
+	D.	Rs. 120
+Your Answer: Option A
+Correct Answer: Option D
+Explanation:
+
+To earn Rs. 10, money invested = Rs. 100.
+
+To earn Rs. 12, money invested = Rs.		100	x 12		= Rs. 120.
+10
+ Market value of Rs. 100 stock = Rs. 120.
+
