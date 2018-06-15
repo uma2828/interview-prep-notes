@@ -1,0 +1,133 @@
+1. How many numbers up to 300 and 700 are divisible by 2, 3 and 7 both together?
+
+A. 9	 
+B. 8
+C. 10	 
+D. 11
+Answer: Option A
+
+Explanation:
+
+(700 – 300)/42 = 9 22/42 => 9 Numbers
+
+8. How many numbers up to 100 and 300 are divisible by 11?
+
+A. 22
+B. 21	 
+C. 20
+D. 18	 
+Answer: Option D
+
+Explanation:
+
+(300 – 100)/11 = 200/11 = 18 2/11
+
+18 Numbers
+
+9. A starts business with a capital of Rs.1200 B and C join with some investments after 3 and 6 months respectively. If the end of a year, the profit is divided in the ratio 2:3:5 respectively. What is B's investment in the business?
+
+A. Rs.2400	 
+B. Rs.1800
+C. Rs.3600	 
+D. Rs.6000
+Answer: Option A
+
+Explanation:
+
+1200 * 12: x * 9 = 2:3
+
+x = 2400
+
+11. A boat can move upstream at 25 kmph and downstream at 35 kmph, then the speed of the current is?
+
+A. 5 kmph	 
+B. 10 kmph
+C. 30 kmph	 
+D. 15 kmph
+Answer: Option A
+
+Explanation:
+
+US = 25
+
+DS = 35
+
+M = (35 - 25)/2 = 5
+
+12. The average temperature for Monday, Tuesday, Wednesday and Thursday was 48 degrees and for Tuesday, Wednesday, Thursday and Friday was 46 degrees. If the temperature on Monday was 42 degrees. Find the temperature on Friday?
+
+A. 40 degrees
+B. 38 degrees
+C. 36 degrees
+D. 34 degrees	 
+Answer: Option D
+
+Explanation:
+
+M + Tu + W + Th = 4 * 48 = 192
+
+Tu + W + Th + F = 4 * 46 = 184
+
+M = 42
+
+Tu + W + Th = 192 -42 = 150
+
+F = 184 – 150 = 34
+
+14. In what time a sum of money double itself at 3% per annum simple interest?
+
+A. 29 years
+B. 33 1/3 years	 
+C. 23 1/3 years	 
+D. 13 1/3 years
+Answer: Option B
+
+Explanation:
+
+P = (P*3*R)/100
+
+R = 33 1/3%
+
+18. A, B and C invested Rs.6300, Rs.4200 and Rs.10500 respectively, in a partnership business. Find the share of A in profit of Rs.12100 after a year?
+
+A. Rs.3630	 
+B. Rs.2840
+C. Rs.3200	 
+D. Rs.5600
+Answer: Option A
+
+Explanation:
+
+6300:4200:10500
+
+3:2:5
+
+3/10 * 12100 = 3630
+
+
+19. If a: b = 3:4, b:c = 7:9, c:d = 5:7, find a:d?
+
+A. 5:12	 
+B. 7:12
+C. 3:11	 
+D. 5:11
+Answer: Option A
+
+Explanation:
+
+a/d = (3/4)*(7/9)*(5/7) => 5/12
+
+
+20.The smallest number when increased by " 1 " is exactly divisible by 12, 18, 24, 32 and 40 is:
+
+A. 1439	 
+B. 1440
+C. 1459	 
+D. 1449
+Answer: Option A
+
+Explanation:
+
+LCM = 1440
+
+1440 - 1 = 1439
