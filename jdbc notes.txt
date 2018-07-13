@@ -1,0 +1,208 @@
+Java JDBC Tutorial
+Java JDBC is a Java API to connect and execute query with the database. JDBC API uses jdbc drivers to connect with the database.
+We can use JDBC API to access tabular data stored into any relational database.
+
+Why Should We Use JDBC
+Before JDBC, ODBC API was the database API to connect and execute query with the database. But, ODBC API uses ODBC driver which is written in C language (i.e. platform dependent and unsecured). That is why Java has defined its own API (JDBC API) that uses JDBC drivers (written in Java language).
+
+We can use JDBC API to handle database using Java program and can perform following activities:
+Connect to the database
+Execute queries and update statements to the database
+Retrieve the result received from the database.
+
+What is API
+API (Application programming interface) is a document that contains description of all the features of a product or software. 
+It represents classes and interfaces that software programs can follow to communicate with each other. 
+An API can be created for applications, libraries, operating systems, etc.
+
+JDBC Driver:
+JDBC Driver is a software component that enables java application to interact with the database. There are 4 types of JDBC drivers:
+JDBC-ODBC bridge driver
+Native-API driver (partially java driver)
+Network Protocol driver (fully java driver)
+Thin driver (fully java driver)
+
+1) JDBC-ODBC bridge driver
+The JDBC-ODBC bridge driver uses ODBC driver to connect to the database. The JDBC-ODBC bridge driver converts JDBC method calls into the ODBC function calls. 
+This is now discouraged because of thin driver.
+
+2) Native-API driver
+The Native API driver uses the client-side libraries of the database. The driver converts JDBC method calls into native calls of the database API. It is not written entirely in java.
+
+3) Network Protocol driver
+The Network Protocol driver uses middleware (application server) that converts JDBC calls directly or indirectly into the vendor-specific database protocol. It is fully written in java.
+
+4) Thin driver
+The thin driver converts JDBC calls directly into the vendor-specific database protocol. That is why it is known as thin driver. It is fully written in Java language.
+
+Java Database Connectivity with 5 Steps
+1) Register the driver class
+The forName() method of Class class is used to register the driver class. This method is used to dynamically load the driver class.
+Syntax of forName() method
+public static void forName(String className)throws ClassNotFoundException  
+
+Example to register the OracleDriver class
+Here, Java program is loading oracle driver to esteblish database connection.
+Class.forName("oracle.jdbc.driver.OracleDriver");  
+
+2) Create the connection object
+The getConnection() method of DriverManager class is used to establish connection with the database.
+Syntax of getConnection() method
+1) public static Connection getConnection(String url)throws SQLException  
+2) public static Connection getConnection(String url,String name,String password)  
+throws SQLException  
+Example to establish connection with the Oracle database
+Connection con=DriverManager.getConnection(  
+"jdbc:oracle:thin:@localhost:1521:xe","system","password");  
+
+3) Create the Statement object
+The createStatement() method of Connection interface is used to create statement. The object of statement is responsible to execute queries with the database.
+Syntax of createStatement() method
+public Statement createStatement()throws SQLException  
+Example to create the statement object
+Statement stmt=con.createStatement();  
+
+4) Execute the query
+The executeQuery() method of Statement interface is used to execute queries to the database. This method returns the object of ResultSet that can be used to get all the records of a table.
+Syntax of executeQuery() method
+public ResultSet executeQuery(String sql)throws SQLException  
+Example to execute query
+ResultSet rs=stmt.executeQuery("select * from emp");  
+  while(rs.next()){  
+System.out.println(rs.getInt(1)+" "+rs.getString(2));  
+}  
+
+5) Close the connection object
+By closing connection object statement and ResultSet will be closed automatically. The close() method of Connection interface is used to close the connection.
+Syntax of close() method
+public void close()throws SQLException  
+Example to close connection
+con.close();  
+
+Java Database Connectivity with Oracle
+To connect java application with the oracle database, we need to follow 5 following steps. In this example, we are using Oracle 10g as the database. So we need to know following information for the oracle database:
+Driver class: The driver class for the oracle database is oracle.jdbc.driver.OracleDriver.
+Connection URL: The connection URL for the oracle10G database is jdbc:oracle:thin:@localhost:1521:xe where jdbc is the API, oracle is the database, thin is the driver, localhost is the server name on which oracle is running, we may also use IP address, 1521 is the port number and XE is the Oracle service name. You may get all these information from the tnsnames.ora file.
+Username: The default username for the oracle database is system.
+Password: It is the password given by the user at the time of installing the oracle database.
+
+Create a Table
+Before establishing connection, let's first create a table in oracle database. Following is the SQL query to create a table.
+create table emp(id number(10),name varchar2(40),age number(3));  
+
+xample to Connect Java Application with Oracle database
+In this example, we are connecting to an Oracle database and getting data from emp table. Here, system and oracle are the username and password of the Oracle database.
+
+import java.sql.*;  
+class OracleCon{  
+public static void main(String args[]){  
+try{  
+//step1 load the driver class  
+Class.forName("oracle.jdbc.driver.OracleDriver");  
+  
+//step2 create  the connection object  
+Connection con=DriverManager.getConnection(  
+"jdbc:oracle:thin:@localhost:1521:xe","system","oracle");  
+  
+//step3 create the statement object  
+Statement stmt=con.createStatement();  
+  
+//step4 execute query  
+ResultSet rs=stmt.executeQuery("select * from emp");  
+while(rs.next())  
+System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3));  
+  
+//step5 close the connection object  
+con.close();  
+  
+}catch(Exception e){ System.out.println(e);}  
+  
+}  
+}  
+The above example will fetch all the records of emp table.
+
+Java Database Connectivity with MySQL
+To connect Java application with the MySQL database, we need to follow 5 following steps.
+In this example we are using MySql as the database. So we need to know following informations for the mysql database:
+Driver class: The driver class for the mysql database is com.mysql.jdbc.Driver.
+Connection URL: The connection URL for the mysql database is jdbc:mysql://localhost:3306/sonoo where jdbc is the API, mysql is the database, localhost is the server name on which mysql is running, we may also use IP address, 3306 is the port number and sonoo is the database name. We may use any database, in such case, we need to replace the sonoo with our database name.
+Username: The default username for the mysql database is root.
+Password: It is the password given by the user at the time of installing the mysql database. In this example, we are going to use root as the password.
+Let's first create a table in the mysql database, but before creating table, we need to create database first.
+
+create database sonoo;  
+use sonoo;  
+create table emp(id int(10),name varchar(40),age int(3));  
+
+Example to Connect Java Application with mysql database
+In this example, sonoo is the database name, root is the username and password both.
+
+import java.sql.*;  
+class MysqlCon{  
+public static void main(String args[]){  
+try{  
+Class.forName("com.mysql.jdbc.Driver");  
+Connection con=DriverManager.getConnection(  
+"jdbc:mysql://localhost:3306/sonoo","root","root");  
+//here sonoo is database name, root is username and password  
+Statement stmt=con.createStatement();  
+ResultSet rs=stmt.executeQuery("select * from emp");  
+while(rs.next())  
+System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3));  
+con.close();  
+}catch(Exception e){ System.out.println(e);}  
+}  
+}  
+
+Connectivity with Access without DSN
+There are two ways to connect java application with the access database.
+
+Without DSN (Data Source Name)
+With DSN
+Java is mostly used with Oracle, mysql, or DB2 database. So you can learn this topic only for knowledge.
+
+Example to Connect Java Application with access without DSN
+In this example, we are going to connect the java program with the access database. In such case, we have created the login table in the access database. There is only one column in the table named name. Let's get all the name of the login table.
+
+import java.sql.*;  
+class Test{  
+public static void main(String ar[]){  
+ try{  
+   String database="student.mdb";//Here database exists in the current directory  
+  
+   String url="jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};  
+                    DBQ=" + database + ";DriverID=22;READONLY=true";  
+  
+   Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
+   Connection c=DriverManager.getConnection(url);  
+   Statement st=c.createStatement();  
+   ResultSet rs=st.executeQuery("select * from login");  
+    
+   while(rs.next()){  
+    System.out.println(rs.getString(1));  
+   }  
+  
+}catch(Exception ee){System.out.println(ee);}  
+  
+}}  
+
+Example to Connect Java Application with access with DSN
+Connectivity with type1 driver is not considered good. To connect java application with type1 driver, create DSN first, here we are assuming your dsn name is mydsn.
+
+import java.sql.*;  
+class Test{  
+public static void main(String ar[]){  
+ try{  
+   String url="jdbc:odbc:mydsn";  
+   Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
+   Connection c=DriverManager.getConnection(url);  
+   Statement st=c.createStatement();  
+   ResultSet rs=st.executeQuery("select * from login");  
+    
+   while(rs.next()){  
+    System.out.println(rs.getString(1));  
+   }  
+  
+}catch(Exception ee){System.out.println(ee);}  
+  
+}}  
