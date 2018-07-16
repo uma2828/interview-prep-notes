@@ -1,0 +1,118 @@
+Q #1) What is a Network?
+Ans: A network is a set of devices connected to each other using a physical transmission medium.
+Example: A Computer Network is a group of computers connected with each other to communicate and share information and resources like hardware, data, and software across each other.
+
+Q #2) What is a Node?
+Ans: Two or more computers are connected directly by an optical fiber or any other cable. A node is a point where a connection established. 
+It is a network component which is used to send, receive and forward the electronic information.
+
+Q #3) What is Network Topology?
+Ans: Network Topology is a physical layout of the computer network and it defines how the computers, devices, cables etc are connected to each other.
+
+Q #4) What are Routers?
+Ans: The router is a network device which connects two or more network segments. The router is used to transfer information from the source to destination.
+
+Q #5) What is OSI reference model?
+Ans: Open System Interconnection, the name itself suggest that it is a reference model which defines how applications can communicate with each other over a networking system.
+It also helps to understand the relationship between networks and defines the process of communication in a network.
+
+Q #6) What are the layers in OSI Reference Models? Describe each layer briefly.
+Ans:  Given below are the seven layers of OSI Reference Models:
+#1) Physical Layer (Layer 1): Physical Layer converts data bits into electrical impulse or radio signals. E.g. Ethernet.
+#2) Data Link Layer (Layer 2): At Data Link layer, data packets are encoded and decoded into bits and it provides a node to node data transfer. 
+Data Link Layer also detects the errors occurred at Layer 1.
+#3) Network Layer (Layer 3): Network Layer transfers variable length data sequence from one node to another node in the same network.
+ This variable length data sequence is also known as “Datagrams”.
+#4) Transport Layer (Layer 4): It transfers data between nodes and also provides acknowledgment of successful data transmission. 
+It keeps track of transmission and sends the segments again if the transmission fails.
+#5) Session Layer (Layer 5): Session Layer manages and controls the connections between computers. 
+It establishes, coordinates, exchange and terminates the connections between local and the remote applications.
+#6) Presentation Layer (Layer 6): It is also called as “Syntax Layer”. Layer 6 transforms the data into the form in which the application layer accepts.
+#7) Application Layer (Layer 7): This is the last layer of OSI Reference Model and is the one which is close to the end user. 
+Both end-user and application layer interacts with the software application. This layer provides services for email, file transfer etc.
+
+Q #7) What is the difference between Hub, Switch, and Router?
+Ans:
+Hub	Switch	Router
+Hub is least expensive, least intelligent and least complicated of the three.
+It broadcast all data to every port which may cause serious security and reliability concern	Switches work similarly like Hubs but in a more efficient manner.
+It creates connections dynamically and provides information only to the requesting port	The router is smartest and most complicated out of these three.
+It comes in all shapes and sizes. Routers are similar like little computers dedicated for routing network traffic
+In a Network, Hub is a common connection point for devices connected to the network.
+Hub contains multiple ports and is used to connect segments of LAN	Switch is a device in a network which forwards packets in a network	Routers are located at gateway and forwards data packets
+
+Q #8) Explain TCP/IP Model
+Ans: The most widely used and available protocol is TCP/IP i.e. Transmission Control Protocol and Internet Protocol. TCP/IP specifies how data should be packaged,
+ transmitted and routed in their end to end data communication.
+ 
+Q #9) What is HTTP and what port does it use?
+Ans: HTTP is HyperText Transfer Protocol and it is responsible for web content. Many web pages are using HTTP to transmit the web content and allow the display and navigation of HyperText.
+It is the primary protocol and port used here is TCP port 80.
+
+Q #10) What is HTTPs and what port does it use?
+Ans: HTTPS is a Secure HTTP. HTTPS is used for secure communication over a computer network. HTTPS provides authentication of websites which prevents unwanted attacks.
+In a bi-directional communication, HTTPS protocol encrypts the communication so that tampering of the data gets avoided. With the help of a SSL certificate, it verifies if the requested server connection is a valid connection or not. 
+HTTPS uses TCP with port 443.
+
+Q #11) What are TCP and UDP?
+Ans: Common factors in TCP and UDP:
+TCP and UDP are the most widely used protocols that are built on the top of IP protocol.
+Both protocols TCP and UDP are used to send bits of data over the internet, which is also known as ‘packets’.
+When packets are transferred using either TCP or UDP, it is sent to an IP address. These packets are traversed through routers to the destination.
+TCP	UDP
+TCP stands for Transmission Control Protocol	UDP is stands for User Datagram Protocol or Universal Datagram Protocol
+Once the connection is setup, data can be sent bi-directional i.e. TCP is a connection oriented protocol	UDP is connectionless, simple protocol. Using UDP, messages are sent as packets
+The speed of TCP is slower than UDP	UDP is faster compared to TCP
+TCP is used for the application where time is not critical part of data transmission	UDP is suitable for the applications which require fast transmission of data and time is crucial in this case.
+
+Q #12) What is a Firewall?
+Ans: Firewall is a network security system that is used to protect computer networks from unauthorized access. It prevents malicious access from outside to the computer network. 
+A firewall can also be built to grant limited access to the outside users.
+
+Q #13) What is DNS?
+
+Ans: Domain Name Server (DNS), in a non-professional language and we can call it as Internet’s phone book.
+ All the public IP addresses and their hostnames are stored in the DNS and later it translates into a corresponding IP address.
+For a human being, it is easy to remember and recognize the domain name, however, the computer is a machine that does not understand the human language
+and they only understand the language of IP addresses for data transfer.
+
+Q #15) What is a Proxy Server and how do they protect the computer network?
+
+Ans: For data transmission, IP addresses are required and even DNS uses IP addresses to route to the correct website. 
+It means without the knowledge of correct and actual IP addresses it is not possible to identify the physical location of the network.
+Proxy Servers prevent external users who are unauthorized to access such IP addresses of the internal network. 
+The Proxy Server makes the computer network virtually invisible to the external users.
+
+Q #18) What is NIC?
+
+Ans: NIC stands for Network Interface Card. It is also known as Network Adapter or Ethernet Card. 
+It is in the form of add-in card and is installed in a computer so that the computer can be connected to a network.
+Each NIC has a MAC address which helps in identifying the computer on a network.
+
+Q #19) What is Data Encapsulation?
+
+Ans: In a computer network, to enable data transmission from one computer to another, the network devices send messages in the form of packets. 
+These packets are then added with the IP header by OSI reference model layer
+
+Q #21) what is a VPN?
+
+Ans: VPN is the Virtual Private Network and is built on the Internet as a private wide area network. 
+Internet-based VPNs are less expensive and can be connected from anywhere in the world.
+VPNs are used to connect offices remotely and are less expensive when compared to WAN connections.
+
+Q #25) What are the different types of a network? Explain each briefly.
+
+Ans: There are 4 major types of network.
+
+Let’s take a look at each of them in detail.
+
+Personal Area Network (PAN): It is a smallest and basic network type that is often used at home. 
+It is a connection between the computer and another device such as phone, printer, modem tablets etc
+Local Area Network (LAN): LAN is used in small offices and internet cafe to connect a small group of computers to each other.
+ Usually, they are used to transfer a file or for playing the game in a network.
+Metropolitan Area Network (MAN): It is a powerful network type than LAN. The area covered by MAN is a small town, city etc.
+ A huge server is used to cover such a large span of area for connection.
+Wide Area Network (WAN): It is more complex than LAN and covers a large span of area typically a large physical distance. 
+The Internet is the largest WAN which is spread across the world. WAN is not owned by any single organization but it has distributed ownership.
+
+
